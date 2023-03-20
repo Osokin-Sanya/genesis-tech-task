@@ -1,4 +1,6 @@
  ## Project Description
+ 
+ Note: The site will work with CORS enabled in the browser 
 
 The application is a platform for watching educational videos videos. Application built with: React.js, Redux and Ant design.
 
