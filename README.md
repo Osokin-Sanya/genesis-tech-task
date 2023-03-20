@@ -16,7 +16,7 @@ Clicking on a course will redirect you to the page with the lessons for that cou
 
 #### [](https://github.com/Osokin-Sanya/genesis-tech-task#npm-run-build)`npm run build`
 
-**api/index.js** - this code exports two asynchronous functions: fetchCourses and fetchCourse. The function fetchCourse sends a GET request to the server at the address specified in the endpoints.courseById function, with an authorization header containing a JWT token. 
+`api/index.js`- this code exports two asynchronous functions: fetchCourses and fetchCourse. The function fetchCourse sends a GET request to the server at the address specified in the endpoints.courseById function, with an authorization header containing a JWT token. 
 
 If the request is successful, the function returns an array containing the received data and a null value. If the request fails, the function returns an array containing a null value and an error object. The *BASE_API* variable contains the base URL for the API, and the endpoints variable contains the API endpoints used in the fetchCourses and fetchCourse functions. 
 
